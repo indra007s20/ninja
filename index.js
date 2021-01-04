@@ -398,7 +398,7 @@ async function starts() {
 						client.sendMessage(from, buffer, image, {quoted: mek, caption: teks})
 					} catch (e) {
 						console.log(`Error :`, color(e,'red'))
-						reply('Possível nome de usuário inválido '')
+						reply('Possível nome de usuário inválido ')
 					}
 					break
 				case 'nulis':
