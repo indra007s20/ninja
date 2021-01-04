@@ -330,7 +330,7 @@ async function starts() {
 				case 'memeindo':
 					memein = await kagApi.memeindo()
 					buffer = await getBuffer(`https://imgur.com/${memein.hash}.jpg`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'ai teu memekkkk})
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'ai teu memekkkk'})
 					break
 				case 'prefixo':
 					if (args.length < 1) return
